@@ -170,6 +170,17 @@ p{
    
    }
 
+   /* pagina contacto */
+   #titulo-contacto{
+      font-size: 16px;
+   }
+   #contenedor-comtactos{
+      background-color: aqua;
+   }
+   #ge{
+      background-color: antiquewhite;
+   }
+
    /* media query */
    @media (max-width: 768px){
        #re{
