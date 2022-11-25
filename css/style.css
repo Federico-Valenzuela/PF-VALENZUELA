@@ -1,368 +1,262 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-#padre-inicio{
-   display: grid;
-    grid-template-rows: 150px 1000px  40px;
-    /* grid-template-columns: 100% ; */
-    grid-template-areas:
-    "header header header header"
-    "main main main main"
-    "footer footer footer footer" ;
-}
 header{
-   grid-area: header;
-   background-color: green;
-   
+   background-color: black;
 }
-main{
-   grid-area: main;
-   background-color: rgb(240, 122, 122);
-   
+.row{
+   background-color: black;
 }
-footer{
-   grid-area: footer;
-   background-color: green;
-   
+.box-header{
+   height: 60px;
+   background-color: rgb(226, 216, 216);
+   margin: 10px 40px;
+   border-radius: 15%;
 }
-
-
-#encabezado{
-    background-color: blueviolet;
-    height: 110px;
-     /* display: flex;
-    flex-direction: row;
-     justify-content: space-between; */
-    
-}
-header #ingreso ul{
-    display: flex;
-    display: inline;
-    height: 30px;
-    background-color: red;
-}
-
-#ingreso{
-    background-color: black;
-    height: 30px;
-    color: white;
-    width: 100%;
-    display: flex;
-    display: inline;
-    
-    text-decoration: none;
-    
-}
-#simbolo-abr{
-    background-color: white;
-    color: black;
-    font-size: 40px;
-    display: inline;
-    text-transform: uppercase;
-    padding: 5px;
-    line-height: 110px;
-    margin-left: 15px;
-}
-#simbolo-text{
-    background-color: black;
-    color: white;
-    display: inline;
-    padding: 5px;
-    font-size: 40px;
-    text-transform: uppercase;
-    margin-left: 15px;
-}  
-
-
-/* header  div ul li a{
-    text-decoration: none;
-    
-    color: blanchedalmond;
-    position: absolute;
-    top: 0;
-    left: 0;
-}*/
-nav{
-    background-color: #aaa;
-    height: 40px;
-    width: 100%;
-}
-nav ul{
-    float: right;
-    margin-right: 20px;
-    /* display: flex; */
-    overflow-y: hidden;
-    overflow-x: hidden;
-    
-}
-nav ul li{
-    display: inline-block;
-    text-decoration: none;
-    margin: 0px 5px;
-    line-height: 40px;
-   
-    
-}
-nav ul li a{
-    color: rgb(210, 49, 49);
-    font-size: 20px;
-    padding: 7px 13px;
-    text-transform: uppercase;
-    border-radius: 3px;
-    
-}
-nav ul li a:hover{
-    background-color: blue;
-    transition: .5s;
-}
-#check{
-     display: none;
-    
-}
-.checkbtn{
-    font-size: 25px;
-    color: white;
-    line-height: 60px;
-    float: right;
-    margin-right: 30px;
-    margin-top: -10px;
-    cursor: pointer;
-    display: none;
-    
- }
- 
- h3{
-    text-align: center;
-    font-size: 20px;
-    background-color: blue;
-    height: 100px;
-    line-height: 90px;
-    text-transform: uppercase;
-    padding: 10px;
- }
- #portada{
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-around;
- }
- #imPort{
-    height: 300px;
-    width: 400px;
-
- }
- #productos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
- }
- h4{
-    font-size: 40px;
-    text-align: center;
- }
- .prod{
-    height: 160px;
-    background-color: yellow;
-    margin: 30px;
-    
-    /* justify-content: space-around; */
- }
- main section div p a{
-   color: #aaa;
- }
- main section div p a:hover{
-   color: rgb(170, 170, 170);
-   background:aliceblue
-   
- }
- section div p{
-    color: red;
-    text-align: center;
- }
- footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: black;
-    height: 40px;
-    line-height: 40px;
- }   
- footer a{
-    color: white;
-    text-transform: uppercase;
- } 
-
- /* pagina fora de pago */
- #titulo-fpp{
-   
-   font-size: 30px;
-   background-color: #aaa;
-   height: 50px;
+#re{
+   color: black;
+   font-size: 50px;
    line-height: 50px;
- }
- .cometario{
-   position: relative;
-   display: inline;
-   
-   
- }
- #cuerpo-fp{
-   position: relative;
+   font-weight: 700;
+}
+#red-electro{
+   font-size: 50px;
+   line-height:70px;
+   font-weight: 700;
+   color: black;
+   font-style: italic;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#box-header-titulo{
+   height: 70px;
+   background-color: antiquewhite;
+   margin: 10px 40px;
+   border-radius: 100%;
+}
+.box-header-inicio{
+   background-color: black;
+    margin-top: 50px; 
+}
+#inicio-header{
    display: flex;
    justify-content: space-around;
-   flex-wrap: wrap;
- }
-.img-fp{
-   width: 200px;
-   height: 200px;
-   
-   
-  
    
 }
-.img-fp:hover{
-width: 250px;
-height: 250px;
-transition: all 1s;
+
+header ul li{
+
+list-style: none;
+color: white;
+font-size: 18px;
+padding: -8px;
+margin: 2px;
+cursor: pointer;
+
 }
-.modo-de-pago{
-   color:antiquewhite;
-   margin-left: 250px;
+h3{
+   text-align: center;
 }
-h5{
-   font-size: 26px;
-   text-align: center; 
+#titulo-carrusel, #titulo-prod-destacados{
+   height: 55px;
+   background-color: rgb(226, 216, 216);
+   border-radius: 1%;
+}
+
+#div-nav{
+   margin: 10px 0; 
+}
+
+#carouselExampleIndicators{
+   margin: 10px 70px;
+   padding: 10px;
+}
+main{
+   background-color: antiquewhite;
 }
 
 
- @media (max-width: 858px){
-   #padre-inicio{
-      display: grid;
-       grid-template-rows: 120px 1500px  10px;
-       /* grid-template-columns: 100% ; */
-       grid-template-areas:
-       "header header header header"
-       "main main main main"
-       "footer footer footer footer" ;
-   }
-    #encabezado{
-        background-color: blueviolet;
-        height: 80px;
-               
-    } 
-    #simbolo-abr{
-        
-        font-size: 30px;
-        margin-left: 10px;
-        
-        line-height: 80px;
-    }
-    #simbolo-text{
-       
-       margin-left: 10px; 
-        font-size: 30px;
-    }
-    .checkbtn{
-        
-        display: block;     
-     }
-     ul{
-        position: fixed;
-        width: 100%;
-        height:100vh;
-        left: -100%;
-        top: 120px;
-        text-align: center;
-        background: orange;
-        transition: all 0.7s;
-     }
-     nav ul li{
-        display: block;
-        margin: 30px 0;
-        line-height: 40px;
-     }
-     nav ul li a{
-        font-size: 24px;
-     }
-     li a:hover{
-        background: none;
-        color: white
-    }
-    #check:checked ~ ul{
-        left: 0;
-        z-index: 1;
-      
-    }
-    /* #check:checked{
-      overflow-y: hidden;
-    }
-    } */
-    /* #check:checked ~ main{
-        display: none;
-    }     */ 
-    /* como puedo ocultar el main cuando activo mi menu? */
-    #imPort{
-        height: 200px;
-        width: 300px;
-    
-     }
-     h3{
-        
-        font-size: 16px;
-        height: 40px;
-        line-height: 30px;
-        
-     }
-     h4{
-        font-size: 30px;
-        
-     }
-     #productos{
-        margin-left: 60px;
-     }
-    
-     
-     footer{
-      height: 80px;
-      
-      flex-wrap: wrap;
-      padding: 6px;
-      
-       line-height: 40px;
-      font-size: 14px;
-        
-    } 
-    footer div{
-       width: 48%;
-       margin-left: 2%;
-      
-      
-    }
-    /*Forma de pago*/
-    #titulo1{
-      font-size: 14x;
-      height: 60px;
-      line-height: 20px;
-     
-
-    }
-    
-.img-fp{
-   width: 150px;
+.box-prod{
+   background-color: white;
    height: 150px;
-   margin-top: -0px;
-}
-.img-fp:hover{
-width: 200px;
-height: 200px;
-}
-.modo-de-pago{
-   color:antiquewhite
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: center;
+   border-radius: 3px;
 }
 
+.img-carrusel{
+   width: 100%;
+   height: 500px;
+   padding: 1%;
+}
+#prod-destacados{
+   background-color: antiquewhite;
+}
+
+#footer{
+   background-color: black;
+}
+.box-footer{
+   height: 60px;
+   background-color: black;
+   margin: 10px 40px;
+   border-radius: 15%;
+}
+.prod-img{
+   
+   width: 100px;
+   height: 100%;
+   padding:5px 0;
+   ;
+   
+}
+.tarj-prod{
+   line-height: 8%;
+}
+.p-img{
+   margin-bottom: 0;
+}
+footer div div div div a{
+   text-decoration: none;
+   color: aliceblue;
+   text-transform: uppercase;
+   font-size: 20px;
+   
+   line-height: 60px;
+   
+}
+footer div div div div a:hover{
+   color:black;
+   
+}
+.box-footer:hover{
+background-color: aliceblue;
+color: black; 
+}
+p{
+   text-align: center;
+  
+}
+/* pagina Formas de pago */
+
+.box-titulo-fp{
+   height: 70px;
+   background-color: rgb(226, 216, 216);
+   font-size: 20px;
+}
+   .box-main{
+       height: 390px;
+       background-color: lightyellow;
+       margin: 20px 0;
+       border-radius: 4px;
+       border: solid 0.5px;
    }
+   #main{
+       background-color: antiquewhite;
+   }
+   .img-fp{
+       height: 200px;
+       width: 200px;
+   }
+   #img-fp-re{
+       height: 150px;
+       width: 150px;
+   }
+   h1{
+       text-align: center;
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       text-transform: uppercase;
+       line-height: 70px;
+   
+   }
+
+   /* media query */
+   @media (max-width: 768px){
+       #re{
+           color: white;
+           font-size: 40px;
+           line-height: 40px;
+           font-weight: 400;
+       }
+       .box-header{
+           height: 50px;
+           background-color: rgb(226, 216, 216);
+           margin: 10px 160px;
+           
+       }
+       #red-electro{
+           font-size: 40px;
+           line-height:68px;
+           font-weight: 500;
+           color: black;
+           
+       }
+       #box-header-titulo{
+           height: 70px;
+           background-color: antiquewhite;
+           margin: 10px 40px;
+           border-radius: 50%;
+       }
+       .box-header-inicio{
+           background-color: black;
+            margin-top: 2px; 
+       }
+       #inicio-header{
+           display: flex;
+           justify-content: space-around;
+           
+       }
+       .img-carrusel{
+           width: 100%;
+           height: 300px;
+           padding: 0%;
+       }
+       .box-footer{
+           height: 50px;
+           margin: 0px;
+       }
+       footer div div div div a{
+           font-size: 14px;
+           line-height: 50px;
+           
+       }
+       
+       /* media query formas de pago */
+       .box-titulo-fp{
+           height: 70px;
+           background-color: rgb(226, 216, 216);
+           /* font-size: 16px; */
+           line-height: 16px;
+       }
+           .box-main{
+               height: 330px;
+               margin: 20px;
+           }
+           .img-fp{
+               height: 100px;
+               width: 100px;
+           }
+           #img-fp-re{
+               height: 150px;
+               width: 150px;
+           }
+           h1{
+               font-size: 16px;
+           
+           }
+           .fp-subt{
+               font-size: 16px;
+           }
+           #img-fp-casa{
+               width: 90%;
+           }
+           .cont-fp{
+               font-size: 12px;
+           }
+       
+
+   }
+
    
 
 
