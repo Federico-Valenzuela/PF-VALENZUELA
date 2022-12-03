@@ -1,5 +1,12 @@
+*/{
+   padding: 0;
+   margin: 0;
+}
+
 header{
-   background-color: black;
+   background-color: red;
+   height: 160px;
+   
 }
 .row{
    background-color: black;
@@ -7,8 +14,8 @@ header{
 .box-header{
    height: 60px;
    background-color: rgb(226, 216, 216);
-   margin: 10px 40px;
-   border-radius: 15%;
+   margin-top: 15px;
+   border-radius: 30%;
 }
 #re{
    color: black;
@@ -24,6 +31,9 @@ header{
    font-style: italic;
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+#redireccionaminto-index{
+   text-decoration: none;
+}
 
 #box-header-titulo{
    height: 70px;
@@ -38,7 +48,21 @@ header{
 #inicio-header{
    display: flex;
    justify-content: space-around;
+}
+ #sesion-login{
    
+}
+#sesion-login{
+   display:n ;
+   height: 220px;
+   width: 330px;
+   background-color: aqua;
+   border-radius: 2%;
+
+} 
+#checkbtn{
+   color: antiquewhite;
+   background-color: blue;
 }
 
 header ul li{
@@ -51,23 +75,34 @@ margin: 2px;
 cursor: pointer;
 
 }
-h3{
-   text-align: center;
-}
-#titulo-carrusel, #titulo-prod-destacados{
-   height: 55px;
-   background-color: rgb(226, 216, 216);
-   border-radius: 1%;
-}
 
-#div-nav{
-   margin: 10px 0; 
-}
 
-#carouselExampleIndicators{
-   margin: 10px 70px;
+#box-titulo-portada{
+   background-color: white;
+   margin-top: 20px;
    padding: 10px;
 }
+
+
+
+#div-nav{
+   margin:0 10px;
+   
+   height:60px;
+   
+}
+.carousel-inner{
+   height: 100%;
+   width: 100%;
+   
+   
+}
+#carouselExampleIndicators-compra{
+   background-color: aqua;
+   height: 315px;
+   margin-top: 10px;
+}
+
 main{
    background-color: antiquewhite;
 }
@@ -81,27 +116,39 @@ main{
    margin-bottom: 10px;
    display: flex;
    justify-content: center;
-   border-radius: 3px;
+   border: solid 1px
+   
 }
+
+
 
 .img-carrusel{
    width: 100%;
-   height: 500px;
-   padding: 1%;
+   height: 100%;
+  
+   
+
+}
+#titulo-prod-destacados{
+   
+   margin-top: 10px  ;
+   padding: 0 25px;
+}
+#box-titulo-h3{
+   background-color: white;
+   text-align: center;
+   
 }
 #prod-destacados{
    background-color: antiquewhite;
+   margin-top: 16px;
+   
+}
+#h3-productos{
+   font-size: 20px;
 }
 
-#footer{
-   background-color: black;
-}
-.box-footer{
-   height: 60px;
-   background-color: black;
-   margin: 10px 40px;
-   border-radius: 15%;
-}
+
 .prod-img{
    
    width: 100px;
@@ -116,17 +163,27 @@ main{
 .p-img{
    margin-bottom: 0;
 }
+#footer{
+   background-color: black;
+   height: 60px;
+
+}
+.box-footer{
+   height: 40px;
+   background-color: antiquewhite;
+   margin: 10px;
+   
+   border-radius: 15%;
+}
 footer div div div div a{
    text-decoration: none;
-   color: aliceblue;
+   color: black;
    text-transform: uppercase;
    font-size: 20px;
-   
-   line-height: 60px;
-   
+   line-height: 40px;
 }
 footer div div div div a:hover{
-   color:black;
+   color:gray;
    
 }
 .box-footer:hover{
@@ -151,6 +208,11 @@ p{
        border-radius: 4px;
        border: solid 0.5px;
    }
+   .fp-subt{
+      text-align: center;
+      text-transform: uppercase;
+   }
+   
    #main{
        background-color: antiquewhite;
    }
@@ -162,32 +224,214 @@ p{
        height: 150px;
        width: 150px;
    }
-   h1{
+   #h1-fp{
        text-align: center;
        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
        text-transform: uppercase;
        line-height: 70px;
    
    }
+   /* pagina legales */
+   #main-legal{
+      margin: 10px
+   }
+   .titulito-info-legal{
+
+   }
+   .info-legal{
+      text-justify:;
+      background-color: white;
+      text-align: left;
+   }
+   #titulo-principal-legal{
+      text-align: center;
+   }
+
 
    /* pagina contacto */
    #titulo-contacto{
       font-size: 16px;
+      height: 40px;
+      line-height: 40px;
    }
-   #contenedor-comtactos{
-      background-color: aqua;
+      
+      
+      
+   
    }
-   #ge{
+   #hola{
+      background-color: blue;
+   }
+   #fondo-cont-main-secundario{
+      background-color: white;
+      height:40px ;
+      
+   }
+   #contenedor-contactos{
+      margin-top: px;
+   }
+      
+      
+   #main-contacto{
       background-color: antiquewhite;
    }
+   #fondo-formulario{
+      background-color: antiquewhite;
+      border: solid 1px;
+      
+   }
+   .form-floating{
+      margin: 10px 0;
+   }
+   #enviar{
+      
+     
+   }
+   
+   #hola2{
+      background-color: blue;
+
+   }
+   
+   /* pagina compra */
+   #body-compra{
+      background-color: white;
+   }
+   #titulo-compra{
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: black;
+      background-color: white;
+      font-size: 40px;
+   }
+      
+    .container__slider{
+      max-width: 500px;
+      height: 300px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 20px;
+   }
+   input[type=radio]{
+      display:none;
+   }
+
+   .container{
+      width: 100%;
+      height: 100%;
+      
+      transform-style: preserve-3d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+   }
+   .cards{
+      position: relative;
+      width: 100%;
+      height: 100%;
+
+   }
+   .card{
+      position: absolute;
+      width: 60%;
+      height: 100%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      cursor: pointer;
+      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44 1);
+   }
+    .img-compra{
+      width: 100%;
+      height: 100%;
+      border-radius: 2%;
+      object-fit:cover ;
+   } 
+   #item-2:checked ~ .cards #selector-1,
+   #item-1:checked ~ .cards #selector-3,
+   #item-3:checked ~ .cards #selector-2{
+      transform: translateX(-80%); scale: 0.8;
+      z-index: 0;
+      opacity: 0.6;
+   }
+   #item-3:checked ~ .cards #selector-1,
+   #item-1:checked ~ .cards #selector-2,
+   #item-2:checked ~ .cards #selector-3{
+      transform: translateX(80%); scale: 0.8;
+      z-index: 0;
+      opacity: 0.6;
+   }
+   #item-1:checked ~ .cards #selector-1,
+   #item-2:checked ~ .cards #selector-2,
+   #item-3:checked ~ .cards #selector-3{
+      transform: translateX(0); scale: 1;
+      z-index: 1;
+   }
+   #fondoVistaCompra{
+      background-color: white;
+   }
+   #detalleCompra{
+      font-size: 24px;
+   }
+   #compraPago{
+      background-color: white;
+      border: solid 1px;
+   }
+   #codigo{
+      margin-left: 0;
+   }
+   #precio-compra{
+      display: flex;
+      height: 40px;
+   }
+   #detalleCompra-1{
+      text-decoration: line-through;
+      display: inline;
+      line-height: 20px;
+   }
+   #detalleCompra-2{
+      background-color: red;
+      border-radius: 30%;
+      display: inline;
+      line-height: 20px;
+      
+      
+   }
+   #detalleCompra-3{
+      font-size: 28px;
+      color: green;
+      line-height: 20px;
+   }
+   /* pagina sobreNosotros */
+   .portada-sobre-nosotros{
+      text-align: center;
+      margin-top: 10px;
+      font-size: 42px;
+   }
+   #imagen-sibrenosotros{
+      text-align: center;
+   }
+   .titulo-info-legal{
+      text-align: center;
+   }
+
+
+   
+   
+
 
    /* media query */
    @media (max-width: 768px){
-       #re{
-           color: white;
-           font-size: 40px;
-           line-height: 40px;
-           font-weight: 400;
+      header{
+         background-color: red;
+         height: 200px;
+      }
+       #RE-contenedor{
+         display: none;
        }
        .box-header{
            height: 50px;
@@ -196,7 +440,7 @@ p{
            
        }
        #red-electro{
-           font-size: 40px;
+           font-size: 20px;
            line-height:68px;
            font-weight: 500;
            color: black;
@@ -217,14 +461,45 @@ p{
            justify-content: space-around;
            
        }
+       #div-nav{
+         z-index: 1;
+       }
+       #tituloPortada{
+         font-size: 22px;
+         
+         
+       }
+       #box-titulo-portada{
+         
+         background-color: white;
+         height: 28px;
+         
+      }
+       #titulo-carrusel{
+         height: 26px;
+         margin-top: 5px;
+         
+       }
+       #carouselExampleIndicators-compra{
+         height: 200px;
+       }
+
        .img-carrusel{
-           width: 100%;
-           height: 300px;
-           padding: 0%;
+           width: 350px;
+           height: 200px;
+           
+       }
+       #tituloPortada{
+         line-height: 10px;
+       }
+       footer{
+         height: 120px;
+         background-color: black;
        }
        .box-footer{
            height: 50px;
-           margin: 0px;
+           margin-top: 0px;
+           
        }
        footer div div div div a{
            font-size: 14px;
@@ -251,8 +526,10 @@ p{
                height: 150px;
                width: 150px;
            }
-           h1{
-               font-size: 16px;
+           #h1-fp{
+               font-size: 18px;
+            
+               
            
            }
            .fp-subt{
@@ -261,8 +538,29 @@ p{
            #img-fp-casa{
                width: 90%;
            }
+           #box-prestamo{
+            height:550px;
+           }
            .cont-fp{
-               font-size: 12px;
+               font-size: 20px;
+           }
+           .box-main{
+            height: 400px;
+           }
+           /* media query contacto */
+           #titulo-contacto{
+            font-size: 14px;
+           }
+           #enviar{
+            margin: 1%;
+           }
+           #box-titulo-contacto{
+            height: 100px;
+           }
+           #fondo-cont-main-secundario{
+            height: 80px;
+            margin: 5px;
+            
            }
        
 
