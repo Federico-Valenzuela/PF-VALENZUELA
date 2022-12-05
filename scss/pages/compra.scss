@@ -1,0 +1,253 @@
+main{
+    .container-fluid{
+        .row{
+            #fondoVistaCompra{
+                
+                background-color: $color_secundario;
+                h1{
+                    text-align: center;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: black;
+                    background-color: white;
+                    font-size: 40px;
+                }
+                .container__slider{
+                    max-width: 500px;
+                    height: 300px;
+                    margin: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 30px 20px;
+                    .container{
+                        width: 100%;
+                        height: 100%;
+                        transform-style: preserve-3d;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        input[type=radio]{
+                            display:none;
+                         }
+                        #item-2:checked ~ .cards #selector-1,
+                        #item-1:checked ~ .cards #selector-3,
+                        #item-3:checked ~ .cards #selector-2{
+                            transform: translateX(-80%); scale: 0.8;
+                            z-index: 0;
+                            opacity: 0.6;
+                        }
+                        #item-3:checked ~ .cards #selector-1,
+                        #item-1:checked ~ .cards #selector-2,
+                        #item-2:checked ~ .cards #selector-3{
+                            transform: translateX(80%); scale: 0.8;
+                            z-index: 0;
+                            opacity: 0.6;
+                        }
+                        #item-1:checked ~ .cards #selector-1,
+                        #item-2:checked ~ .cards #selector-2,
+                        #item-3:checked ~ .cards #selector-3{
+                            transform: translateX(0); scale: 1;
+                            z-index: 1;
+ }
+
+                         .cards{
+                            position: relative;
+                            width: 100%;
+                            height: 100%;
+                            .card{
+                                position: absolute;
+                                width: 60%;
+                                height: 100%;
+                                left: 0;
+                                right: 0;
+                                margin: auto;
+                                cursor: pointer;
+                                transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44 1);
+                                .img-compra{
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 2%;
+                                    object-fit:cover ;
+                                 } 
+                             }
+                        
+                         }
+                    
+                     }
+                 }
+
+            }
+            #compraPago{
+                background-color: white;
+                h3{
+                    font-size: 26px;
+                }
+                #precio-compra{
+                    display: flex;
+                    height: 40px;
+                    #detalleCompra-1{
+                        text-decoration: line-through;
+                        display: inline;
+                        line-height: 20px;
+                     }
+                     #detalleCompra-2{
+                        background-color: red;
+                        border-radius: 30%;
+                        display: inline;
+                        line-height: 20px;
+                     }
+                     #detalleCompra-3{
+                        font-size: 28px;
+                        color: green;
+                        line-height: 20px;
+                     }
+                 }
+             }
+        }
+    }
+    
+    
+    h6{
+        font-size: 22px;
+        }
+    }
+
+
+
+@media (max-width: 768px){
+    main{
+        .container-fluid{
+            .row{
+                #fondoVistaCompra{
+                    margin:5px 0;
+                }
+                #compraPago{
+                    margin-bottom: 15px;
+                }}}}}
+
+                    
+                   
+                            
+
+    
+ 
+
+
+
+
+
+
+
+
+
+
+// #body-compra{
+//     background-color: white;
+//  }
+//  #titulo-compra{
+//     text-align: center;
+//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//     color: black;
+//     background-color: white;
+//     font-size: 40px;
+//  }
+    
+//   .container__slider{
+//     max-width: 500px;
+//     height: 300px;
+//     margin: auto;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     padding: 30px 20px;
+//  }
+//  input[type=radio]{
+//     display:none;
+//  }
+
+//  .container{
+//     width: 100%;
+//     height: 100%;
+    
+//     transform-style: preserve-3d;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+
+//  }
+//  .cards{
+//     position: relative;
+//     width: 100%;
+//     height: 100%;
+
+//  }
+//  .card{
+//     position: absolute;
+//     width: 60%;
+//     height: 100%;
+//     left: 0;
+//     right: 0;
+//     margin: auto;
+//     cursor: pointer;
+//     transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44 1);
+//  }
+//   .img-compra{
+//     width: 100%;
+//     height: 100%;
+//     border-radius: 2%;
+//     object-fit:cover ;
+//  } 
+//  #item-2:checked ~ .cards #selector-1,
+//  #item-1:checked ~ .cards #selector-3,
+//  #item-3:checked ~ .cards #selector-2{
+//     transform: translateX(-80%); scale: 0.8;
+//     z-index: 0;
+//     opacity: 0.6;
+//  }
+//  #item-3:checked ~ .cards #selector-1,
+//  #item-1:checked ~ .cards #selector-2,
+//  #item-2:checked ~ .cards #selector-3{
+//     transform: translateX(80%); scale: 0.8;
+//     z-index: 0;
+//     opacity: 0.6;
+//  }
+//  #item-1:checked ~ .cards #selector-1,
+//  #item-2:checked ~ .cards #selector-2,
+//  #item-3:checked ~ .cards #selector-3{
+//     transform: translateX(0); scale: 1;
+//     z-index: 1;
+//  }
+//  #fondoVistaCompra{
+//     background-color: white;
+//  }
+//  #detalleCompra{
+//     font-size: 24px;
+//  }
+//  #compraPago{
+//     background-color: white;
+//     border: solid 1px;
+//  }
+//  #codigo{
+//     margin-left: 0;
+//  }
+//  #precio-compra{
+//     display: flex;
+//     height: 40px;
+//  }
+//  #detalleCompra-1{
+//     text-decoration: line-through;
+//     display: inline;
+//     line-height: 20px;
+//  }
+//  #detalleCompra-2{
+//     background-color: red;
+//     border-radius: 30%;
+//     display: inline;
+//     line-height: 20px;
+//  }
+//  #detalleCompra-3{
+//     font-size: 28px;
+//     color: green;
+//     line-height: 20px;
+//  }

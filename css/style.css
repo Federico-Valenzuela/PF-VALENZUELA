@@ -75,6 +75,12 @@ margin: 2px;
 cursor: pointer;
 
 }
+#div-nav{
+   margin:0 10px;
+   
+   height:60px;
+   
+}
 
 
 #box-titulo-portada{
@@ -85,12 +91,7 @@ cursor: pointer;
 
 
 
-#div-nav{
-   margin:0 10px;
-   
-   height:60px;
-   
-}
+
 .carousel-inner{
    height: 100%;
    width: 100%;
@@ -258,7 +259,7 @@ p{
       
       
    
-   }
+   
    #hola{
       background-color: blue;
    }

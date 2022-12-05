@@ -1,0 +1,47 @@
+main{
+    .contenedor-principal{
+        margin-left: 0;
+        margin-right: 0;
+        margin: auto;
+        h1{
+            text-align: center;
+            font-size: 32px;
+            height: 45px;
+            line-height: 45px;}
+        .contenedor-legales-sub{
+                .contenedor-individual-sub{
+                    border: solid 1px;
+                    margin: 5px 5px;
+                    background-color: $color_secundario;
+                
+                h3{
+                    margin-left: 5px;
+                }
+                p{
+                    margin-left: 15px;
+                }
+            }
+        }
+    }}
+
+
+
+
+
+
+
+
+// #main-legal{
+//     margin: 10px
+//  }
+//  .titulito-info-legal{
+
+//  }
+//  .info-legal{
+//     text-justify:;
+//     background-color: white;
+//     text-align: left;
+//  }
+//  #titulo-principal-legal{
+//     text-align: center;
+//  }

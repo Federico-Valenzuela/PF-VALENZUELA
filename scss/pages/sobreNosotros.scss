@@ -1,0 +1,78 @@
+main{
+    .container{
+
+    
+    h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        img{
+            height: 300px;
+            width: 600px;
+        }
+    }
+    .container-info{
+        div{
+            border: solid 1px;
+            margin: 5px 0;
+            background-color: $color_secundario;
+        h3{
+            margin-left: 5px;
+        }
+        p{
+            margin-left: 15px;
+            text-align: left;
+        }
+    }
+
+}}}
+
+
+@media (max-width: 768px){
+    main{
+        .container{
+    
+        
+        h1{
+            font-size: px;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            img{
+                height: 200px;
+                width: 300px;
+            }
+        }
+        
+    
+    }}}
+    
+    
+   
+
+
+   
+
+
+
+
+
+
+
+
+
+
+// .portada-sobre-nosotros{
+//     text-align: center;
+//     margin-top: 10px;
+//     font-size: 42px;
+//  }
+//  #imagen-sibrenosotros{
+//     text-align: center;
+//  }
+//  .titulo-info-legal{
+//     text-align: center;
+//  }

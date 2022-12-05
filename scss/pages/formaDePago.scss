@@ -1,0 +1,131 @@
+main{
+    .container{
+        .row{
+            h3{
+                font-size: 22px;
+                text-align: center;
+                line-height: 70px;
+            }
+        }
+        #contenedor-tarj-fp{
+            border: solid 1px;
+            div{
+                .box-main{
+                    height: 390px;
+                    // background-color: $color_secundario;
+                    background-color: $color_secundario;
+                    margin: 20px 0;
+                    border-radius: 4px;
+                    border: solid 0.5px;
+                    h3{
+                        text-align: center;
+                        text-transform: uppercase;
+                    }
+                    p{
+                        text-align: center;
+                        .img-fp{
+                            height: 150px;
+                            width: 150px;
+                        }
+                        #img-fp-re{
+                            height: 150px;
+                            width: 150px;
+                        }
+
+                    }
+                    .cont-fp{
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 768px){
+    main{
+        .container{
+            .row{
+                h3{
+                    line-height: 26px;
+                }
+            }
+            #contenedor-tarj-fp{
+                div{
+                    .box-main{
+                        
+                        
+                        #img-fp-casa{
+                                height: 150px;
+                                width: 200px;
+                            }
+    
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+
+
+
+
+
+
+
+
+
+// .box-titulo-fp{
+//     height: 70px;
+//     background-color: rgb(226, 216, 216);
+//     font-size: 20px;
+//  }
+    // .box-main{
+    //     height: 390px;
+    //     background-color: lightyellow;
+    //     margin: 20px 0;
+    //     border-radius: 4px;
+    //     border: solid 0.5px;
+    // }
+    // .fp-subt{
+    //    text-align: center;
+    //    text-transform: uppercase;
+    // }
+    
+    // #main{
+    //     background-color: antiquewhite;
+    // }
+    // .img-fp{
+    //     height: 200px;
+    //     width: 200px;
+    // }
+    // #img-fp-re{
+    //     height: 150px;
+    //     width: 150px;
+    // }
+    // #h1-fp{
+    //     text-align: center;
+    //     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    //     text-transform: uppercase;
+    //     line-height: 70px;
+    
+    // }
+    /* pagina legales */
+    // #main-legal{
+    //    margin: 10px
+    // }
+    // .titulito-info-legal{
+ 
+    // }
+    // .info-legal{
+       
+    //    background-color: white;
+    //    text-align: left;
+    // }
+    // #titulo-principal-legal{
+    //    text-align: center;
+    // }
