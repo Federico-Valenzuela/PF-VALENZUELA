@@ -31,9 +31,11 @@ header {
     header .box-header-inicio-opciones ul li {
       color: black;
       list-style: none;
-      color: white;
       font-size: 18px;
-      cursor: pointer; }
+      text-decoration: none; }
+      header .box-header-inicio-opciones ul li a {
+        text-decoration: none;
+        color: white; }
   header #div-nav {
     margin: 0 5px; }
 
@@ -273,15 +275,20 @@ main .container #contenedor-tarj-fp {
       main .container #contenedor-tarj-fp div .box-main p #img-fp-re {
         height: 150px;
         width: 150px; }
+      main .container #contenedor-tarj-fp div .box-main p #img-fp-casa {
+        height: 200px;
+        width: 300px; }
     main .container #contenedor-tarj-fp div .box-main .cont-fp {
       text-align: left; }
 
 @media (max-width: 768px) {
   main .container .row h3 {
     line-height: 26px; }
-  main .container #contenedor-tarj-fp div .box-main #img-fp-casa {
-    height: 150px;
-    width: 200px; } }
+  main .container #contenedor-tarj-fp div .box-main #box-prestamo {
+    height: 500px; }
+    main .container #contenedor-tarj-fp div .box-main #box-prestamo #img-fp-casa {
+      height: 150px;
+      width: 200px; } }
 
 /* pagina legales */
 main .container-fluid .row #fondoVistaCompra {

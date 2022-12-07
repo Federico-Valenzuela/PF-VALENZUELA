@@ -12,7 +12,6 @@ main{
             div{
                 .box-main{
                     height: 390px;
-                    // background-color: $color_secundario;
                     background-color: $color_secundario;
                     margin: 20px 0;
                     border-radius: 4px;
@@ -30,6 +29,10 @@ main{
                         #img-fp-re{
                             height: 150px;
                             width: 150px;
+                        }
+                        #img-fp-casa{
+                            height: 200px;
+                            width: 300px;
                         }
 
                     }
@@ -55,6 +58,9 @@ main{
             #contenedor-tarj-fp{
                 div{
                     .box-main{
+                        #box-prestamo{
+                            height: 500px;
+                        
                         
                         
                         #img-fp-casa{
@@ -62,7 +68,7 @@ main{
                                 width: 200px;
                             }
     
-                        }
+                        }}
                         
                     }
                 }

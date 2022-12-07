@@ -37,9 +37,12 @@ header{
          li{
             color: $color_primario;
             list-style: none;
-            color: white;
             font-size: 18px;
-            cursor: pointer;}
+            text-decoration: none;
+            a{
+               text-decoration: none;
+               color: $color_secundario;
+            }}
             
             
 
@@ -84,6 +87,11 @@ header{
         
               
       }}}}}
+
+
+
+
+      
          // header{
          //    height: 100px;
          //    #RE-contenedor{
