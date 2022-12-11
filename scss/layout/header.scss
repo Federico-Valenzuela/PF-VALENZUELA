@@ -1,95 +1,149 @@
 header{
-    background-color: $color_primario;
-    height: 160px;
-    .box-header{
-        height: 60px;
-        background-color: $color_terciario;
-        margin-top: 15px;
-        border-radius: 30%;
-        a{
-            text-decoration: none;
-        }
+   background-color: $color_terciario;
+    height: 150px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    #header-principal{
+      background-color: $color_primario;
+      #contenedor-logo{
          p{
+            background-color: $color_terciario;
             color: $color_primario;
-            font-size: 50px;
-            line-height: 50px;
-            font-weight: 700;
-            font-family:cursive;
-            margin-left: 5px;}
-         
-         
-          #red-electro{
-         font-size: 50px;
-         line-height:70px;
-         font-weight: 700;
-         color: $color_primario;
-         font-style: italic;
-         font-family: Georgia, 'Times New Roman', Times, serif;
-         text-align: center;}
+             font-size: 50px;
+             line-height: 50px;
+             font-weight: 700;
+             font-family:cursive;
+             margin-left: 5px;
+             margin-top: 30px;
+             border-radius: 10px;
+             margin-left: 12px;
+         }
       }
-   .box-header-inicio-opciones{
-      ul{
-         display: flex;
-         justify-content: space-around;
-         text-decoration: none;
-         margin-top: 50px;
-         
-         li{
-            color: $color_primario;
-            list-style: none;
-            font-size: 18px;
-            text-decoration: none;
-            a{
-               text-decoration: none;
-               color: $color_secundario;
-            }}
-            
-            
-
+      #contenedor-titulo{
+         div{
+            margin-top: 10px;
+            div{
+               background-color: black;
+                p{
+                  background-color: $color_terciario;
+                  font-size: 50px;
+                  line-height:70px;
+                  font-weight: 700;
+                  color: $color_primario;
+                  font-style: italic;
+                  font-family: Georgia, 'Times New Roman', Times, serif;
+                  text-align: center;
+                  margin-left: 190px;
+                  margin-right: 190px;
+                  border-radius: 10px;
+                  }
             }
          }
-      #div-nav{
-         margin: 0 5px;
       }
+      #contenedor-login-carrito-sucursales{
+         ul{
+            // background-color: yellow;
+            display: flex;
+          justify-content: space-around;
+          text-decoration: none;
+          margin-top: 43px;
+          margin-right: 0;
+          height: 20px;
+            li{
+               margin-right: 20px;
+             color: $color_primario;
+             list-style: none;
+             font-size: 18px;
+             text-decoration: none;
+            //  background-color: aqua;
+             border-radius: 10px;
+             padding: 0 6px;
+             line-height: 20px;
+             &:hover{
+               background-color:rgb(54, 54, 63)
+             }
+               a{
+                  text-decoration: none;
+                color: $color_secundario;
 
+               }
+            }
+         }
       }
+    }
+    #header-secundario{
+      margin: 0 5px;
+    }
+}
+      
+    
+            
+            
+
+
+      
 
 
 // media query
 
       @media (max-width: 768px){
          header{
-            height: 190px;
-            .row{
-               #RE-contenedor{
-                  display: none;
+            
+             height: 170px;
+             #header-principal{
+               
+               #contenedor-logo{
+                  p{
+                     
+                     color: $color_primario;
+                      font-size: 30px;
+                      line-height: 30px;
+                      font-weight: 700;
+                      font-family:cursive;
+                      margin-top: 30px;
+                      border-radius: 10px;
+                      margin-left: 4px;
+                  }
                }
-               .box-header{
-                height: 30px;
-                background-color: $color_terciario;
-                border-radius: 30%;
-                margin-top: 10px;
-                 
-               #red-electro{
-               font-size: 30px;
-               line-height:30px;
-               font-weight: 400;
-              }
-            .box-header-inicio-opciones{
-              ul{
-                 margin-top: 0px;
-                 
-                 li{
-                    font-size: 12px;
-                    }
-                 }
-              
+               #contenedor-titulo{
+                  div{
+                     
+                     div{
+                        
+                        p{
+                           background-color: $color_terciario;
+                           font-size: 30px;
+                           line-height:50px;
+                           font-weight: 700;
+                           color: $color_primario;
+                           font-style: italic;
+                           font-family: Georgia, 'Times New Roman', Times, serif;
+                           text-align: center;
+                           margin-left: 10px;
+                           margin-right: 10px;
+                           border-radius: 10px;
+                        }
+                     }
+                  }
+               }
+               #contenedor-login-carrito-sucursales{
+                  ul{
+                   margin-top: 0px;
+                   margin-right: 0;
+                   height: 20px;
+                     li{
+                      font-size: 18px;
+                     }
+                  }
+               }
+             }
+            //  
+         }
+      }
         
-              
-      }}}}}
-
-
-
 
       
          // header{
@@ -246,3 +300,4 @@ header{
 //  padding: -8px;
 //  margin: 2px;
 //  }
+    

@@ -1,8 +1,10 @@
 main{
-    background-color: $color_terciario;
+    background-color: orange;
+    margin-top: 160px;
     .container{
+        // background-color: orange;
         #box-titulo-portada{
-            background-color: $color_terciario;
+            // background-color: $color_secundario;
             margin-top: 20px;
             padding: 10px;
             border-radius: 1%;
@@ -18,12 +20,12 @@ main{
             }
         }
         #carouselExampleIndicators-compra{
-            // background-color: ;
             height: 314px;
             margin-left: 0;
             margin-right: 0;
             margin: auto;
             border: solid 1px;
+            z-index: 0;
         }
         .carousel-inner{
             div{
@@ -33,16 +35,21 @@ main{
                  }
             }
         }
+        .carousel-control-prev,
+        .carousel-control-next{
+            z-index: 0;
+        }
+        
+        .carousel-inner{
+            height: 100%;
+            width: 100%;
+        }
         #box-titulo-productos-destacados{
             margin-top: 50px;
             h3{
                 font-size: 20px;
              }
         }
-        .carousel-inner{
-            height: 100%;
-            width: 100%;
-     }
 }
 .container-fluid{
     #prod-destacados{
@@ -53,6 +60,9 @@ main{
                 margin-top: 5px;
                 margin-bottom: 5px;
                 background-color: $color_secundario;
+                &:hover{
+                    opacity: 0.8;
+                }
                 .box-prod{
                     
                     height: 150px;
@@ -65,6 +75,10 @@ main{
                         width: 100px;
                         height: 100%;
                         padding:5px 0;
+                        &:hover{
+                            width: 105px;
+                            height: 105%;
+                        }
                         }
                  }
                  .tarj-prod{
@@ -83,78 +97,79 @@ main{
 
 @media (max-width: 768px){
     main{
-        .container{
-            #box-titulo-portada{
-                background-color: $color_terciario;
-                margin-top: 40px;
-                padding: 10px;
-                border-radius: 1%;
-                margin-left: 0;
-                margin-right: 0;
-                margin: auto;
-                height: 45px;
-                line-height: 45px;
-                h3{
-                    line-height: 22px;
-                    text-align: center;
-    
-                }
-            }
-            #carouselExampleIndicators-compra{
-                height: 214px;
-                
-                
-            }
-            
-            #box-titulo-productos-destacados{
-                margin-top: 50px;
-                h3{
-                    font-size: 20px;
-                 }
-            }
-            .carousel-inner{
-                height: 100%;
-                width: 100%;
-         }
-    }
-    #titulo-prod-destacados{
-        h3{
-            line-height: 20px;
-        }
-    }
-    .container-fluid{
-        #prod-destacados{
-            margin: 5px 5px;
-            div{
-                .box-prod-individual{
-                    border: solid 1px;
-                    margin-top: 5px;
-                    margin-bottom: 5px;
-                    background-color: $color_secundario;
-                    .box-prod{
-                        
-                        height: 150px;
-                        width: 100%;
-                        margin-top: 10px;
-                        margin-bottom: 10px;
-                        display: flex;
-                        justify-content: center;
-                        .prod-img{
-                            width: 100px;
-                            height: 100%;
-                            padding:5px 0;
-                            }
-                     }
-                     .tarj-prod{
+        margin-top:175px;
+            .container{
+                #box-titulo-portada{
+                    background-color: $color_terciario;
+                    margin-top: 40px;
+                    padding: 10px;
+                    border-radius: 1%;
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin: auto;
+                    height: 45px;
+                    line-height: 45px;
+                    h3{
+                        line-height: 22px;
                         text-align: center;
-                        line-height: 8px;
-    
-                        
-                     }
-    
+        
+                    }
                 }
+                #carouselExampleIndicators-compra{
+                    height: 214px;
+                    
+                    
+                }
+                
+                #box-titulo-productos-destacados{
+                    margin-top: 50px;
+                    h3{
+                        font-size: 20px;
+                    }
+                }
+                .carousel-inner{
+                    height: 100%;
+                    width: 100%;
             }
         }
+        #titulo-prod-destacados{
+            h3{
+                line-height: 20px;
+            }
+        }
+        .container-fluid{
+            #prod-destacados{
+                margin: 5px 5px;
+                div{
+                    .box-prod-individual{
+                        border: solid 1px;
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                        background-color: $color_secundario;
+                        .box-prod{
+                            
+                            height: 150px;
+                            width: 100%;
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            display: flex;
+                            justify-content: center;
+                            .prod-img{
+                                width: 100px;
+                                height: 100%;
+                                padding:5px 0;
+                                }
+                        }
+                        .tarj-prod{
+                            text-align: center;
+                            line-height: 8px;
+        
+                            
+                        }
+        
+                    }
+                }
+            }
     }
     }
 }
