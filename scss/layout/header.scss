@@ -45,7 +45,6 @@ header{
       }
       #contenedor-login-carrito-sucursales{
          ul{
-            // background-color: yellow;
             display: flex;
           justify-content: space-around;
           text-decoration: none;
@@ -58,7 +57,6 @@ header{
              list-style: none;
              font-size: 18px;
              text-decoration: none;
-            //  background-color: aqua;
              border-radius: 10px;
              padding: 0 6px;
              line-height: 20px;
@@ -94,34 +92,21 @@ header{
             
              height: 170px;
              #header-principal{
-               
                #contenedor-logo{
                   p{
-                     
-                     color: $color_primario;
-                      font-size: 30px;
+                      font-size: 26px;
                       line-height: 30px;
-                      font-weight: 700;
-                      font-family:cursive;
-                      margin-top: 30px;
-                      border-radius: 10px;
+                      margin-top: 20px;
                       margin-left: 4px;
+                      padding: 6PX 0;
                   }
                }
                #contenedor-titulo{
                   div{
-                     
                      div{
-                        
                         p{
-                           background-color: $color_terciario;
                            font-size: 30px;
                            line-height:50px;
-                           font-weight: 700;
-                           color: $color_primario;
-                           font-style: italic;
-                           font-family: Georgia, 'Times New Roman', Times, serif;
-                           text-align: center;
                            margin-left: 10px;
                            margin-right: 10px;
                            border-radius: 10px;
@@ -140,164 +125,9 @@ header{
                   }
                }
              }
-            //  
+            
          }
       }
         
 
       
-         // header{
-         //    height: 100px;
-         //    #RE-contenedor{
-         //       display: none;
-         //    }
-         //    .box-header{
-         //      height: 50px;
-         //      background-color: rgb(226, 216, 216);
-         //      margin: 10px 160px;
-              
-          
-         //  p{red-electro{
-         //      font-size: 10px;
-         //      line-height:68px;
-         //      font-weight: 500;
-              
-              
-         //  }
-         //  #box-header-titulo{
-         //      height: 70px;
-         //      background-color: antiquewhite;
-         //      margin: 10px 40px;
-         //      border-radius: 50%;
-         //  }
-         //  .box-header-inicio{
-         //      background-color: black;
-         //       margin-top: 2px; 
-         //  }
-         //  #inicio-header{
-         //      display: flex;
-         //      justify-content: space-around;
-              
-         //  }
-         //  #div-nav{
-         //    z-index: 1;
-         //  }}}}}
-         //  #tituloPortada{
-         //    font-size: 22px;
-            
-            
-         //  }
-         //  #box-titulo-portada{
-            
-         //    background-color: white;
-         //    height: 28px;
-            
-         // }
-         //  #titulo-carrusel{
-         //    height: 26px;
-         //    margin-top: 5px;
-            
-         //  }
-         //  #carouselExampleIndicators-compra{
-         //    height: 200px;
-         //  }
-   
-         //  .img-carrusel{
-         //      width: 350px;
-         //      height: 200px;
-              
-         //  }
-         //  #tituloPortada{
-         //    line-height: 10px;
-         //  }
-         //  footer{
-         //    height: 120px;
-         //    background-color: black;
-         //  }
-         //  .box-footer{
-         //      height: 50px;
-         //      margin-top: 0px;
-              
-         //  }
-         //  footer div div div div a{
-         //      font-size: 14px;
-         //      line-height: 50px;
-              
-         //  }}}
-   
-      
-         
-         
-
-    
-
-    
- 
-//  .row{
-//     background-color: black;
-//  }
-//  .box-header{
-//    height: 60px;
-//     background-color: $color_terciario;
-//      margin-top: 15px;
-//      border-radius: 30%;
-//   }
-//  #re{
-//     color: black;
-//     font-size: 50px;
-//     line-height: 50px;
-//     font-weight: 700;
-//  }
-//  #red-electro{
-//     font-size: 50px;
-//     line-height:70px;
-//     font-weight: 700;
-//     color: white;
-//     font-style: italic;
-//     font-family: Georgia, 'Times New Roman', Times, serif;
-//     text-align: center;
-//  }
-//  #redireccionaminto-index{
-//     text-decoration: none;
-//  }
- 
-//  #box-header-titulo{
-//     height: 70px;
-//     background-color: antiquewhite;
-//     margin: 10px 40px;
-//     border-radius: 100%;
-//  }
-//  .box-header-inicio{
-   
-//      margin-top: 50px; 
-//      text-decoration: none;
-//  }
-// #inicio-header{
-//   display: flex;
-//    justify-content: space-around;
-//    text-decoration: none;
-//  }
-//   #sesion-login{
-    
-//  }
-//  #sesion-login{
-//     display:n ;
-//     height: 220px;
-//     width: 330px;
-//     background-color: aqua;
-//     border-radius: 2%;
- 
-//  } 
-//  #checkbtn{
-//     color: antiquewhite;
-//     background-color: blue;
-//  }
- 
-//  header ul li{
-//  list-style: none;
-//  color: white;
-//  font-size: 18px;
-//  padding: -8px;
-//  margin: 2px;
-//  }
-    

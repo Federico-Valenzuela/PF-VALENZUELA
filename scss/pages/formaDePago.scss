@@ -2,9 +2,11 @@ main{
     .container{
         .row{
             h3{
-                font-size: 22px;
+                font-size: 34px;
                 text-align: center;
                 line-height: 70px;
+                font-family: typography_primary;
+                font-weight: 600;
             }
         }
         #contenedor-tarj-fp{
@@ -19,9 +21,11 @@ main{
                     h3{
                         text-align: center;
                         text-transform: uppercase;
+                        font-size: 26px;
                     }
                     p{
                         text-align: center;
+                        font-family: $typography_secundary;
                         .img-fp{
                             height: 150px;
                             width: 150px;
@@ -31,7 +35,7 @@ main{
                             width: 150px;
                         }
                         #img-fp-casa{
-                            height: 200px;
+                            height: 170px;
                             width: 300px;
                         }
 
@@ -57,26 +61,10 @@ main{
                     line-height: 26px;
                 }
             }
-            #contenedor-tarj-fp{
-                div{
-                    .box-main{
-                        #box-prestamo{
-                            height: 500px;
-                        
-                        
-                        
-                        #img-fp-casa{
-                                height: 150px;
-                                width: 200px;
-                            }
-    
-                        }}
-                        
-                    }
-                }
-            }
+            
         }
     }
+}
     
 
 
@@ -84,56 +72,3 @@ main{
 
 
 
-
-
-
-// .box-titulo-fp{
-//     height: 70px;
-//     background-color: rgb(226, 216, 216);
-//     font-size: 20px;
-//  }
-    // .box-main{
-    //     height: 390px;
-    //     background-color: lightyellow;
-    //     margin: 20px 0;
-    //     border-radius: 4px;
-    //     border: solid 0.5px;
-    // }
-    // .fp-subt{
-    //    text-align: center;
-    //    text-transform: uppercase;
-    // }
-    
-    // #main{
-    //     background-color: antiquewhite;
-    // }
-    // .img-fp{
-    //     height: 200px;
-    //     width: 200px;
-    // }
-    // #img-fp-re{
-    //     height: 150px;
-    //     width: 150px;
-    // }
-    // #h1-fp{
-    //     text-align: center;
-    //     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    //     text-transform: uppercase;
-    //     line-height: 70px;
-    
-    // }
-    /* pagina legales */
-    // #main-legal{
-    //    margin: 10px
-    // }
-    // .titulito-info-legal{
- 
-    // }
-    // .info-legal{
-       
-    //    background-color: white;
-    //    text-align: left;
-    // }
-    // #titulo-principal-legal{
-    //    text-align: center;
-    // }

@@ -63,23 +63,14 @@ header {
   header {
     height: 170px; }
     header #header-principal #contenedor-logo p {
-      color: black;
-      font-size: 30px;
+      font-size: 26px;
       line-height: 30px;
-      font-weight: 700;
-      font-family: cursive;
-      margin-top: 30px;
-      border-radius: 10px;
-      margin-left: 4px; }
+      margin-top: 20px;
+      margin-left: 4px;
+      padding: 6PX 0; }
     header #header-principal #contenedor-titulo div div p {
-      background-color: #93e6f4;
       font-size: 30px;
       line-height: 50px;
-      font-weight: 700;
-      color: black;
-      font-style: italic;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      text-align: center;
       margin-left: 10px;
       margin-right: 10px;
       border-radius: 10px; }
@@ -117,7 +108,6 @@ footer {
       line-height: 20px; } }
 
 main {
-  background-color: orange;
   margin-top: 160px; }
   main .container #box-titulo-portada {
     margin-top: 20px;
@@ -130,7 +120,9 @@ main {
     line-height: 45px; }
     main .container #box-titulo-portada h3 {
       line-height: 22px;
-      text-align: center; }
+      text-align: center;
+      font-family: times;
+      font-weight: 600; }
   main .container #carouselExampleIndicators-compra {
     height: 314px;
     margin-left: 0;
@@ -150,7 +142,9 @@ main {
   main .container #box-titulo-productos-destacados {
     margin-top: 50px; }
     main .container #box-titulo-productos-destacados h3 {
-      font-size: 20px; }
+      font-size: 24px;
+      font-family: times;
+      font-weight: 600; }
   main .container-fluid #prod-destacados {
     margin: 5px 5px; }
     main .container-fluid #prod-destacados div .box-prod-individual {
@@ -176,7 +170,8 @@ main {
             height: 105%; }
       main .container-fluid #prod-destacados div .box-prod-individual .tarj-prod {
         text-align: center;
-        line-height: 8px; }
+        line-height: 8px;
+        font-family: verdana; }
 
 @media (max-width: 768px) {
   main {
@@ -233,12 +228,11 @@ main {
     font-size: 22px;
     height: 45px;
     line-height: 45px;
-    text-align: center; }
-  main div #fondo-formulario {
-    border: solid 1px;
-    margin-bottom: 5px; }
-    main div #fondo-formulario button {
-      margin-bottom: 5px; }
+    text-align: center;
+    font-weight: 600;
+    font-family: times; }
+  main div .row #fondo-formulario {
+    border: solid 1px; }
 
 @media (max-width: 768px) {
   main {
@@ -247,8 +241,10 @@ main {
       line-height: 26px; } }
 
 main .container h1 {
-  font-size: 45px;
-  text-align: center; }
+  font-size: 44px;
+  text-align: center;
+  font-family: times;
+  font-weight: 600; }
 
 main .container p {
   text-align: center; }
@@ -261,20 +257,23 @@ main .container .container-info div {
   margin: 5px 0;
   background-color: white; }
   main .container .container-info div h3 {
-    margin-left: 5px; }
+    margin-left: 5px;
+    font-family: times;
+    font-weight: 600; }
   main .container .container-info div p {
     margin-left: 15px;
-    text-align: left; }
+    text-align: left;
+    font-family: verdana; }
 
 @media (max-width: 768px) {
   main .container h1 {
-    font-size: px;
+    font-size: 36px;
     text-align: center; }
   main .container p {
     text-align: center; }
     main .container p img {
       height: 200px;
-      width: 300px; } }
+      width: 320px; } }
 
 main .contenedor-principal {
   margin-left: 0;
@@ -282,22 +281,29 @@ main .contenedor-principal {
   margin: auto; }
   main .contenedor-principal h1 {
     text-align: center;
-    font-size: 32px;
+    font-size: 36px;
     height: 45px;
-    line-height: 45px; }
+    line-height: 45px;
+    font-family: typography_primary;
+    font-weight: 600; }
   main .contenedor-principal .contenedor-legales-sub .contenedor-individual-sub {
     border: solid 1px;
     margin: 5px 5px;
     background-color: white; }
     main .contenedor-principal .contenedor-legales-sub .contenedor-individual-sub h3 {
-      margin-left: 5px; }
+      margin-left: 5px;
+      font-family: times;
+      font-weight: 600; }
     main .contenedor-principal .contenedor-legales-sub .contenedor-individual-sub p {
-      margin-left: 15px; }
+      margin-left: 15px;
+      font-family: verdana; }
 
 main .container .row h3 {
-  font-size: 22px;
+  font-size: 34px;
   text-align: center;
-  line-height: 70px; }
+  line-height: 70px;
+  font-family: typography_primary;
+  font-weight: 600; }
 
 main .container #contenedor-tarj-fp {
   border: solid 1px; }
@@ -309,9 +315,11 @@ main .container #contenedor-tarj-fp {
     border: solid 0.5px; }
     main .container #contenedor-tarj-fp div .box-main h3 {
       text-align: center;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-size: 26px; }
     main .container #contenedor-tarj-fp div .box-main p {
-      text-align: center; }
+      text-align: center;
+      font-family: verdana; }
       main .container #contenedor-tarj-fp div .box-main p .img-fp {
         height: 150px;
         width: 150px; }
@@ -319,7 +327,7 @@ main .container #contenedor-tarj-fp {
         height: 150px;
         width: 150px; }
       main .container #contenedor-tarj-fp div .box-main p #img-fp-casa {
-        height: 200px;
+        height: 170px;
         width: 300px; }
     main .container #contenedor-tarj-fp div .box-main .cont-fp {
       text-align: left;
@@ -328,19 +336,14 @@ main .container #contenedor-tarj-fp {
 
 @media (max-width: 768px) {
   main .container .row h3 {
-    line-height: 26px; }
-  main .container #contenedor-tarj-fp div .box-main #box-prestamo {
-    height: 500px; }
-    main .container #contenedor-tarj-fp div .box-main #box-prestamo #img-fp-casa {
-      height: 150px;
-      width: 200px; } }
+    line-height: 26px; } }
 
-/* pagina legales */
 main .container-fluid .row #fondoVistaCompra {
   background-color: white; }
   main .container-fluid .row #fondoVistaCompra h1 {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: times;
+    font-weight: 500;
     color: black;
     background-color: white;
     font-size: 40px; }
@@ -403,7 +406,8 @@ main .container-fluid .row #fondoVistaCompra {
 main .container-fluid .row #compraPago {
   background-color: white; }
   main .container-fluid .row #compraPago h3 {
-    font-size: 26px; }
+    font-size: 26px;
+    font-family: verdana; }
   main .container-fluid .row #compraPago #precio-compra {
     display: flex;
     height: 40px; }
@@ -412,17 +416,29 @@ main .container-fluid .row #compraPago {
       display: inline;
       line-height: 20px; }
     main .container-fluid .row #compraPago #precio-compra #detalleCompra-2 {
-      background-color: red;
       border-radius: 30%;
       display: inline;
-      line-height: 20px; }
+      line-height: 20px;
+      background-color: green; }
     main .container-fluid .row #compraPago #precio-compra #detalleCompra-3 {
       font-size: 28px;
-      color: green;
       line-height: 20px; }
 
-main h6 {
-  font-size: 22px; }
+main #caracteristicas .row #descripciones p {
+  text-align: center;
+  font-size: 26px;
+  font-family: times; }
+
+main #caracteristicas #grilla {
+  background-color: white; }
+  main #caracteristicas #grilla #concepto {
+    background-color: white; }
+    main #caracteristicas #grilla #concepto p {
+      text-align: right;
+      font-family: verdana; }
+  main #caracteristicas #grilla #detalle {
+    background-color: white;
+    font-family: verdana; }
 
 @media (max-width: 768px) {
   main .container-fluid .row #fondoVistaCompra {
@@ -431,7 +447,9 @@ main h6 {
     margin-bottom: 15px; } }
 
 main #box-titulo h1 {
-  font-size: 22px; }
+  font-size: 22px;
+  font-family: times;
+  font-weight: 600; }
 
 main #contenedor-principal {
   margin-top: 20px;
@@ -445,30 +463,30 @@ main #contenedor-principal {
         line-height: 8px; }
       main #contenedor-principal #row #contenedor-box-filtro #filtro {
         display: none; }
-      main #contenedor-principal #row #contenedor-box-filtro .fede .box-filtro {
+      main #contenedor-principal #row #contenedor-box-filtro .filtros .box-filtro {
         background-color: white;
         border: solid 1px;
         margin-bottom: 2px; }
-        main #contenedor-principal #row #contenedor-box-filtro .fede .box-filtro h4 {
+        main #contenedor-principal #row #contenedor-box-filtro .filtros .box-filtro h4 {
           margin-bottom: 0px; }
-      main #contenedor-principal #row #contenedor-box-filtro .fede .aplicar {
+      main #contenedor-principal #row #contenedor-box-filtro .filtros .aplicar {
         background-color: black; }
-        main #contenedor-principal #row #contenedor-box-filtro .fede .aplicar p {
+        main #contenedor-principal #row #contenedor-box-filtro .filtros .aplicar p {
           background-color: #93e6f4; }
-          main #contenedor-principal #row #contenedor-box-filtro .fede .aplicar p button {
+          main #contenedor-principal #row #contenedor-box-filtro .filtros .aplicar p button {
             margin-right: 0px; }
     main #contenedor-principal #row #contenedor-box-muebles {
       display: flex;
       flex-wrap: wrap; }
       main #contenedor-principal #row #contenedor-box-muebles #box-muebles-global {
-        height: 220px;
-        width: 220px;
+        height: 200px;
+        width: 180px;
         background-color: white;
         border: solid 1px;
         margin-top: 5px; }
         main #contenedor-principal #row #contenedor-box-muebles #box-muebles-global div {
-          width: 200px;
-          height: 200px;
+          width: 160px;
+          height: 160px;
           margin-left: 0;
           margin-right: 0;
           margin: auto; }
@@ -482,21 +500,18 @@ main #contenedor-principal {
               width: 150px;
               height: 150px; }
               main #contenedor-principal #row #contenedor-box-muebles #box-muebles-global div .contenedor-img a .mueble-img:hover {
-                opacity: 0.8; }
+                opacity: 0.8;
+                height: 155px;
+                width: 155px; }
           main #contenedor-principal #row #contenedor-box-muebles #box-muebles-global div .contenedor-p {
-            height: 50px;
-            line-height: 0px; }
+            height: 50px; }
             main #contenedor-principal #row #contenedor-box-muebles #box-muebles-global div .contenedor-p .uno {
-              color: black;
-              height: 15px;
-              width: 90%;
-              line-height: 8px;
+              margin-top: 5px;
               margin-bottom: 4px; }
-            main #contenedor-principal #row #contenedor-box-muebles #box-muebles-global div .contenedor-p .dos {
-              color: black;
+            main #contenedor-principal #row #contenedor-box-muebles #box-muebles-global div .contenedor-p .uno, main #contenedor-principal #row #contenedor-box-muebles #box-muebles-global div .contenedor-p .dos {
               height: 15px;
-              width: 90%;
-              line-height: 8px; }
+              line-height: 8px;
+              font-family: verdana; }
 
 @media (max-width: 768px) {
   main #box-titulo h1 {
@@ -507,16 +522,16 @@ main #contenedor-principal {
       border: solid 1px; }
       main .container #row #contenedor-box-filtro #filtro {
         display: none; }
-        main .container #row #contenedor-box-filtro #filtro:checked ~ .fede {
+        main .container #row #contenedor-box-filtro #filtro:checked ~ .filtros {
           display: block;
           height: 100vh; }
-      main .container #row #contenedor-box-filtro .fede {
+      main .container #row #contenedor-box-filtro .filtros {
         display: none; }
-        main .container #row #contenedor-box-filtro .fede h4 {
+        main .container #row #contenedor-box-filtro .filtros h4 {
           margin-bottom: 6px;
           height: 50px;
-          font-size: 48px; }
-        main .container #row #contenedor-box-filtro .fede label {
+          font-size: 40px; }
+        main .container #row #contenedor-box-filtro .filtros label {
           font-size: 26px;
           line-height: 13px; }
   main .container #contenedor-box-muebles {

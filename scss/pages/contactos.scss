@@ -7,37 +7,35 @@ main{
                 height: 45px;
                 line-height:45px;
                 text-align: center;
-            }
+                font-weight: 600;
+                font-family: $typography_primary;
         }
         #fondo-formulario{
             border: solid 1px;
-            margin-bottom: 5px;
-            button{
-                margin-bottom: 5px;
-            }
         }
         
         }
 
     }
+}
 
 
 
-    @media (max-width: 768px){
-        main{
-            background-color: $color_terciario;
-            div{
-                .row{
-                    h1{
-                        line-height:26px;
-                    }
+@media (max-width: 768px){
+    main{
+        background-color: $color_terciario;
+        div{
+            .row{
+                h1{
+                    line-height:26px;
                 }
             }
-            
         }
-
-            
+        
     }
+}
+            
+    
 
 
                 
@@ -58,41 +56,3 @@ main{
 
 
 
-
-// #titulo-contacto{
-//     font-size: 16px;
-//     height: 40px;
-//     line-height: 40px;
-//  }
- 
- 
-//  #fondo-cont-main-secundario{
-//     background-color: white;
-//     height:40px ;
-    
-//  }
-//  #contenedor-contactos{
-//     margin-top: px;
-//  }
-    
-    
-//  #main-contacto{
-//     background-color: antiquewhite;
-//  }
-//  #fondo-formulario{
-//     background-color: $color_terciario;
-//     border: solid 1px;
-    
-//  }
-//  .form-floating{
-//     margin: 10px 0;
-//  }
-//  #enviar{
-    
-   
-//  }
- 
-//  #hola2{
-//     background-color: blue;
-
-//  }

@@ -3,12 +3,14 @@ main{
 
     
     h1{
-        font-size: 45px;
+        font-size: 44px;
         text-align: center;
+        font-family: $typography_primary;
+        font-weight: 600;
     }
     p{
         text-align: center;
-        img{
+          img{
             height: 300px;
             width: 600px;
         }
@@ -20,10 +22,13 @@ main{
             background-color: $color_secundario;
         h3{
             margin-left: 5px;
+            font-family: $typography_primary;
+            font-weight: 600;
         }
         p{
             margin-left: 15px;
             text-align: left;
+            font-family: $typography_secundary;
         }
     }
 
@@ -36,14 +41,14 @@ main{
     
         
         h1{
-            font-size: px;
+            font-size: 36px;
             text-align: center;
         }
         p{
             text-align: center;
             img{
                 height: 200px;
-                width: 300px;
+                width: 320px;
             }
         }
         
@@ -63,16 +68,3 @@ main{
 
 
 
-
-
-// .portada-sobre-nosotros{
-//     text-align: center;
-//     margin-top: 10px;
-//     font-size: 42px;
-//  }
-//  #imagen-sibrenosotros{
-//     text-align: center;
-//  }
-//  .titulo-info-legal{
-//     text-align: center;
-//  }

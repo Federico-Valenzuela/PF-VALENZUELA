@@ -5,9 +5,12 @@ main{
         margin: auto;
         h1{
             text-align: center;
-            font-size: 32px;
+            font-size: 36px;
             height: 45px;
-            line-height: 45px;}
+            line-height: 45px;
+            font-family:typography_primary ;
+            font-weight: 600;
+        }
         .contenedor-legales-sub{
                 .contenedor-individual-sub{
                     border: solid 1px;
@@ -16,9 +19,12 @@ main{
                 
                 h3{
                     margin-left: 5px;
+                    font-family: $typography_primary;
+                    font-weight: 600;
                 }
                 p{
                     margin-left: 15px;
+                    font-family: $typography_secundary;
                 }
             }
         }
@@ -31,17 +37,3 @@ main{
 
 
 
-// #main-legal{
-//     margin: 10px
-//  }
-//  .titulito-info-legal{
-
-//  }
-//  .info-legal{
-//     text-justify:;
-//     background-color: white;
-//     text-align: left;
-//  }
-//  #titulo-principal-legal{
-//     text-align: center;
-//  }
